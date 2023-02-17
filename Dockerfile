@@ -1,0 +1,17 @@
+FROM adoptopenjdk/openjdk11:jre-nightly
+ARG JAR_FILE=target/*.jar
+COPY ${JAR_FILE} /app/backend.jar
+WORKDIR /app
+ENV HEALTH=
+ENV SHOW_SQL=
+ENV DEFAULT_SCHEMA_DB=
+ENV APP_NAME=
+ENV DB_USER=
+ENV DB_PASS=
+ENV DB_URL=
+ENV PORT=
+ENV DB_PLATAFORM=
+ENV DRIVER_CLASS_NAME=
+ENV DB=
+EXPOSE 6565
+ENTRYPOINT ["java", "-jar", "backend.jar"]
