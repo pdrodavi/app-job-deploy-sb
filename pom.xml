@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>br.com.srvex.api</groupId>
 	<artifactId>app-job-deploy-push-registry</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>app-job-deploy-push-registry</name>
 	<description>app-job-deploy-push-registry</description>
 	<properties>
