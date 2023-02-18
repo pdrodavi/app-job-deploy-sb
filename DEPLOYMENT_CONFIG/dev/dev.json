@@ -1,0 +1,13 @@
+{
+  "health":"HEALTH=always",
+  "show-sql":"SHOW_SQL=false",
+  "default-schema-db":"DEFAULT_SCHEMA_DB=",
+  "app-name":"APP_NAME=backend",
+  "db-user":"DB_USER=sa",
+  "db-pass":"DB_PASS=password",
+  "db-url":"DB_URL=jdbc:h2:mem:localhost;DB_CLOSE_ON_EXIT=FALSE",
+  "port":"PORT=6565",
+  "db-plataform":"DB_PLATAFORM=org.hibernate.dialect.H2Dialect",
+  "driver-class-name":"DRIVER_CLASS_NAME=org.h2.Driver",
+  "db":"DB=h2"
+}
